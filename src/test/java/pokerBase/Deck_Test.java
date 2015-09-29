@@ -37,5 +37,11 @@ public class Deck_Test {
 		p.getTotalCards();
 		assertTrue(p.getTotalCards()== 52);
 	}
+	
+	public void TestdrawFromDeck(){
+		p.drawFromDeck();
+		p.getTotalCards();
+		assertTrue(p.getTotalCards()== 51);
+	}
 
 }
